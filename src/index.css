@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+@import './fonts.css';
+
+@theme {
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #141414;
+  --color-surface: #ffffff;
+  --color-muted: #888888;
+  --color-dim: #b4b4b4;
+  --color-hairline: #242424;
+  --color-hairline-light: #eef0f2;
+  --color-accent: #ff5c39;
+  --color-accent-ink: #d9401c;
+
+  --font-display: 'Anton', 'Impact', sans-serif;
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Compense la nav collante quand on saute à une ancre. */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: var(--color-ink);
+    color: var(--color-surface);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Anton n'a qu'une graisse : on neutralise le faux-gras des navigateurs. */
+  .font-display {
+    font-weight: 400;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* Piste de carrousel : scroll horizontal aimanté, barre masquée. */
+  .track {
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+  }
+  .track::-webkit-scrollbar {
+    display: none;
+  }
+  .track > * {
+    scroll-snap-align: start;
+  }
+}
+
+/* Révélation au scroll — désactivée si l'utilisateur préfère moins de mouvement. */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+      opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal[data-visible='true'] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

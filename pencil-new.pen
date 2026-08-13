@@ -1,0 +1,2327 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "z7Zlxs",
+      "x": 0,
+      "y": 0,
+      "name": "Landing — Juste",
+      "clip": true,
+      "width": 1440,
+      "fill": "$ink",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "KmEMM",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "$surface",
+          "padding": [
+            20,
+            "$pad-x"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jjvus",
+              "name": "Wordmark",
+              "fill": "$ink",
+              "content": "JUSTE",
+              "fontFamily": "$font-h",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "CTIot",
+              "name": "Nav Links",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FyV3o",
+                  "name": "Travaux",
+                  "fill": "$ink-soft",
+                  "content": "Travaux",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jnh4k",
+                  "name": "Approche",
+                  "fill": "$ink-soft",
+                  "content": "Approche",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dHCKp",
+                  "name": "À propos",
+                  "fill": "$ink-soft",
+                  "content": "À propos",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TxkYP",
+              "name": "Nav CTA",
+              "fill": "$accent",
+              "cornerRadius": 9999,
+              "padding": [
+                10,
+                22
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hMBwH",
+                  "name": "Label",
+                  "fill": "$ink",
+                  "content": "Démarrer un projet",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NPBNB",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 760,
+          "fill": "$ink",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "G5S7Y",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "dbrandaof",
+                "link": "https://unsplash.com/@dbrandaof",
+                "author": "Diogo Brandao"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1576935429524-1df7fb127097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODE1NzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": 1440,
+              "height": 760
+            },
+            {
+              "type": "rectangle",
+              "id": "Cqdyr",
+              "x": 0,
+              "y": 0,
+              "name": "Scrim",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 0,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0A0A0ACC",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0A0A0A73",
+                    "position": 0.45
+                  },
+                  {
+                    "color": "#0A0A0AF0",
+                    "position": 1
+                  }
+                ]
+              },
+              "width": 1440,
+              "height": 760
+            },
+            {
+              "type": "frame",
+              "id": "zbsw8",
+              "x": 0,
+              "y": 0,
+              "name": "Hero Content",
+              "width": 1440,
+              "height": 760,
+              "layout": "vertical",
+              "gap": 28,
+              "padding": [
+                0,
+                240
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GLSu1",
+                  "name": "Eyebrow",
+                  "fill": "#D0D0D0",
+                  "content": "MONTEUR VIDÉO — VSL · SHORTS · YOUTUBE",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "JpP8y",
+                  "name": "Headline",
+                  "fill": "$on-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Personne ne scrolle vos vidéos",
+                  "lineHeight": 1.02,
+                  "textAlign": "center",
+                  "fontFamily": "$font-h",
+                  "fontSize": 88,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XgThz",
+                  "name": "Sub",
+                  "fill": "#C9C9C9",
+                  "textGrowth": "fixed-width",
+                  "width": 640,
+                  "content": "Monteur vidéo professionnel. Je transforme vos rushes en formats qui retiennent l'attention jusqu'au bout — et qui convertissent.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "$font-b",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "fjPFO",
+                  "name": "Hero CTA",
+                  "fill": "$accent",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    16,
+                    34
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z7kRRT",
+                      "name": "Label",
+                      "fill": "$ink",
+                      "content": "Voir le showreel",
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Otot9",
+          "name": "Stats Band",
+          "width": "fill_container",
+          "fill": "$ink",
+          "padding": [
+            36,
+            "$pad-x"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "A6EA2i",
+              "name": "vidéos montées",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fQp9J",
+                  "name": "Value",
+                  "fill": "$on-ink",
+                  "content": "30",
+                  "fontFamily": "$font-h",
+                  "fontSize": 38,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "f8isux",
+                  "name": "Label",
+                  "fill": "$muted",
+                  "content": "réalisations",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IN0li",
+              "name": "délai de livraison",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q8f6v",
+                  "name": "Value",
+                  "fill": "$on-ink",
+                  "content": "9",
+                  "fontFamily": "$font-h",
+                  "fontSize": 38,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "eMDYn",
+                  "name": "Label",
+                  "fill": "$muted",
+                  "content": "clients accompagnés",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tfOB0",
+              "name": "vues cumulées",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IeK95",
+                  "name": "Value",
+                  "fill": "$on-ink",
+                  "content": "48h",
+                  "fontFamily": "$font-h",
+                  "fontSize": 38,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qT371",
+                  "name": "Label",
+                  "fill": "$muted",
+                  "content": "délai de livraison",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OXnAg",
+              "name": "en remote",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G1F9X",
+                  "name": "Value",
+                  "fill": "$on-ink",
+                  "content": "100%",
+                  "fontFamily": "$font-h",
+                  "fontSize": 38,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "U2yHJP",
+                  "name": "Label",
+                  "fill": "$muted",
+                  "content": "en remote",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IwDwh",
+          "name": "Travaux",
+          "width": "fill_container",
+          "fill": "$ink",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "J9iT2R",
+              "name": "Section Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                "$pad-x",
+                "$pad-x",
+                56,
+                "$pad-x"
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zDg1H",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "01 — RÉALISATIONS",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "H89wBq",
+                  "name": "Title",
+                  "fill": "$on-ink",
+                  "content": "Trente montages, deux formats",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-h",
+                  "fontSize": 56,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "W1SmE",
+                  "name": "Intro",
+                  "fill": "#B4B4B4",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "VSL, publicités et formats longs montés pour des créateurs et des marques qui vendent avec la vidéo.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-b",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "mbjC4",
+                  "name": "Filtres",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vpZtc",
+                      "name": "Tout — 30",
+                      "fill": "$on-ink",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        9,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yjn45",
+                          "name": "Label",
+                          "fill": "$ink",
+                          "content": "Tout — 30",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YZbM3",
+                      "name": "VSL",
+                      "cornerRadius": 9999,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Xh6RN",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "VSL",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hatdP",
+                      "name": "YouTube",
+                      "cornerRadius": 9999,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TVWZW",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "YouTube",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K4PCAt",
+                      "name": "Publicités",
+                      "cornerRadius": 9999,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o7DiX",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "Publicités",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zxsJU",
+                      "name": "Shorts",
+                      "cornerRadius": 9999,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ECPak",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "Shorts",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PrCJ5",
+              "name": "À la une",
+              "width": "fill_container",
+              "gap": 32,
+              "padding": [
+                0,
+                96,
+                72,
+                96
+              ],
+              "children": [
+                {
+                  "id": "ifluN",
+                  "type": "ref",
+                  "ref": "YlZjM",
+                  "name": "VSL complète — Packo",
+                  "width": "fill_container",
+                  "context": "wistia:0ojfko9q7s",
+                  "descendants": {
+                    "o1fSOY": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1692222492645-5c23fd4cf3b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyNjB8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "MHSUG": {
+                      "content": "VSL"
+                    },
+                    "jMbos": {
+                      "content": "VSL complète — Packo"
+                    },
+                    "Ocw96": {
+                      "content": "38 MIN · 16:9"
+                    }
+                  }
+                },
+                {
+                  "id": "K4xyF",
+                  "type": "ref",
+                  "ref": "YlZjM",
+                  "name": "VSL complète — Cyril Bossy",
+                  "width": "fill_container",
+                  "context": "wistia:yavpt1q9sd",
+                  "descendants": {
+                    "o1fSOY": {
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "https://images.unsplash.com/photo-1758691736664-0b83e4f1215e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyNjF8&ixlib=rb-4.1.0&q=80&w=1080",
+                        "mode": "fill"
+                      }
+                    },
+                    "MHSUG": {
+                      "content": "VSL"
+                    },
+                    "jMbos": {
+                      "content": "VSL complète — Cyril Bossy"
+                    },
+                    "Ocw96": {
+                      "content": "16:9 · VIDÉO DE VENTE"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wysnH",
+              "name": "Carrousel 16:9",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                0,
+                0,
+                72,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BII2j",
+                  "name": "Label",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    96
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "voLqt",
+                      "name": "Format",
+                      "fill": "$accent",
+                      "content": "FORMAT 16:9",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "EfnwJ",
+                      "name": "Count",
+                      "fill": "$muted",
+                      "content": "10 vidéos — VSL, YouTube, intros",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pV6rM",
+                  "name": "Piste",
+                  "clip": true,
+                  "width": "fill_container",
+                  "gap": 24,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    96
+                  ],
+                  "children": [
+                    {
+                      "id": "JifAZ",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Format long — David Rupp",
+                      "context": "wistia:fsbhdvpkg6",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1597154036334-409c70ce03df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "YOUTUBE"
+                        },
+                        "zaub8": {
+                          "content": "Format long"
+                        },
+                        "WjtkZ": {
+                          "content": "DAVID RUPP · 18 MIN"
+                        }
+                      }
+                    },
+                    {
+                      "id": "xombb",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Format long — Marius",
+                      "context": "wistia:wue8rcnwap",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1614624533048-a9c2f9cb5a96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "YOUTUBE"
+                        },
+                        "zaub8": {
+                          "content": "Format long"
+                        },
+                        "WjtkZ": {
+                          "content": "MARIUS · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "YKEth",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "YouTube & publicité — Leadmia",
+                      "context": "wistia:6d9l9c6h3s",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1690378820474-b468b8ee64d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "PUB"
+                        },
+                        "zaub8": {
+                          "content": "YouTube & publicité"
+                        },
+                        "WjtkZ": {
+                          "content": "LEADMIA · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "vYic2",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Intro de chaîne — David Rupp",
+                      "context": "wistia:w8hmcv8l4v",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1719937051124-91c677bc58fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "INTRO"
+                        },
+                        "zaub8": {
+                          "content": "Intro de chaîne"
+                        },
+                        "WjtkZ": {
+                          "content": "DAVID RUPP · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "IJwkD",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Vidéo downsell — Packo",
+                      "context": "wistia:rpqciuew1v",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1617035969033-a5c113b6f0d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "VSL"
+                        },
+                        "zaub8": {
+                          "content": "Vidéo downsell"
+                        },
+                        "WjtkZ": {
+                          "content": "PACKO · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "qmzTI",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Intro de chaîne — Créateur",
+                      "context": "wistia:yg3wmlq9vr",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1659083726524-9a341327fd99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "INTRO"
+                        },
+                        "zaub8": {
+                          "content": "Intro de chaîne"
+                        },
+                        "WjtkZ": {
+                          "content": "CRÉATEUR · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nQ1bd",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Format long — David Rupp",
+                      "context": "wistia:5aibxeas27",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1619473669312-e084f7ff9b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "YOUTUBE"
+                        },
+                        "zaub8": {
+                          "content": "Format long"
+                        },
+                        "WjtkZ": {
+                          "content": "DAVID RUPP · 16:9"
+                        }
+                      }
+                    },
+                    {
+                      "id": "R6G3J",
+                      "type": "ref",
+                      "ref": "WYGRg",
+                      "name": "Format long — David Rupp",
+                      "context": "wistia:jctp6uxk0e",
+                      "descendants": {
+                        "HBZCU": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1732114587599-e51b9901b17c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTd8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "G3nFaU": {
+                          "content": "YOUTUBE"
+                        },
+                        "zaub8": {
+                          "content": "Format long"
+                        },
+                        "WjtkZ": {
+                          "content": "DAVID RUPP · 16:9"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BOWvu",
+              "name": "Carrousel 9:16",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                0,
+                0,
+                72,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HhJIK",
+                  "name": "Label",
+                  "width": "fill_container",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    96
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "LeACt",
+                      "name": "Format",
+                      "fill": "$accent",
+                      "content": "FORMAT 9:16",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "w5B92",
+                      "name": "Count",
+                      "fill": "$muted",
+                      "content": "20 vidéos — publicités & shorts",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S7Flh",
+                  "name": "Piste",
+                  "clip": true,
+                  "width": "fill_container",
+                  "gap": 24,
+                  "padding": [
+                    0,
+                    0,
+                    0,
+                    96
+                  ],
+                  "children": [
+                    {
+                      "id": "yCuR7",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Cyril Bossy",
+                      "context": "wistia:ix4bw5ld9a",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1778659150837-cb6e9da4ae9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "CYRIL BOSSY"
+                        }
+                      }
+                    },
+                    {
+                      "id": "lapSq",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Cyril Bossy",
+                      "context": "wistia:8t3gq028x2",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1776333089749-3c4ed05aec4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEyOTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "CYRIL BOSSY"
+                        }
+                      }
+                    },
+                    {
+                      "id": "F5Ql0",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Jordan Dafflon",
+                      "context": "wistia:mtbi52a8yk",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1758873268550-48f1506510fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDB8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "JORDAN DAFFLON"
+                        }
+                      }
+                    },
+                    {
+                      "id": "nDlvz",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Marque e-commerce",
+                      "context": "wistia:0wt2il5c9a",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1627384113858-ce93ff568d1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "MARQUE E-COMMERCE"
+                        }
+                      }
+                    },
+                    {
+                      "id": "uydDL",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Finance",
+                      "context": "wistia:y74tyoaorf",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1766218331975-ecc29597ce9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDF8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "FINANCE"
+                        }
+                      }
+                    },
+                    {
+                      "id": "YRYsD",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Short — Guillaume",
+                      "context": "wistia:lkxcyg7xmp",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1782315363391-bff53f732e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "SHORT"
+                        },
+                        "hALBY": {
+                          "content": "Short"
+                        },
+                        "nALKp": {
+                          "content": "GUILLAUME"
+                        }
+                      }
+                    },
+                    {
+                      "id": "E9Ra6B",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Short — Guillaume",
+                      "context": "wistia:88lc6246pz",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1601506521793-dc748fc80b67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDN8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "SHORT"
+                        },
+                        "hALBY": {
+                          "content": "Short"
+                        },
+                        "nALKp": {
+                          "content": "GUILLAUME"
+                        }
+                      }
+                    },
+                    {
+                      "id": "uOZlj",
+                      "type": "ref",
+                      "ref": "t9m2W",
+                      "name": "Publicité — Jordan Dafflon",
+                      "context": "wistia:1zg77plaqf",
+                      "descendants": {
+                        "DYNV3": {
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "https://images.unsplash.com/photo-1775654792600-12423fcee42b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODEzMDR8&ixlib=rb-4.1.0&q=80&w=1080",
+                            "mode": "fill"
+                          }
+                        },
+                        "YBWSy": {
+                          "content": "PUB"
+                        },
+                        "hALBY": {
+                          "content": "Publicité"
+                        },
+                        "nALKp": {
+                          "content": "JORDAN DAFFLON"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "davnw",
+                      "name": "Voir plus",
+                      "width": 230,
+                      "height": 409,
+                      "cornerRadius": 12,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BZPI7",
+                          "name": "Count",
+                          "fill": "$on-ink",
+                          "content": "+12",
+                          "fontFamily": "$font-h",
+                          "fontSize": 38,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DlZDs",
+                          "name": "Label",
+                          "fill": "$muted",
+                          "content": "AUTRES VERTICALES",
+                          "fontFamily": "$font-c",
+                          "fontSize": 13,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "j0UWk",
+              "name": "Fin de section",
+              "width": "fill_container",
+              "padding": [
+                0,
+                96,
+                96,
+                96
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t4ktY1",
+                  "name": "Total",
+                  "fill": "#B4B4B4",
+                  "content": "30 réalisations au total — 10 en 16:9, 20 en 9:16",
+                  "fontFamily": "$font-b",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZBVwc",
+                  "name": "Lien",
+                  "cornerRadius": 9999,
+                  "stroke": "$hairline",
+                  "strokeWidth": 1,
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    28
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "st3j0",
+                      "name": "Label",
+                      "fill": "$on-ink",
+                      "content": "Voir tout le portfolio",
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "mYkQA",
+                      "name": "Arrow",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-right",
+                      "library": "lucide",
+                      "fill": "$on-ink"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "I0mQFT",
+          "name": "Approche",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 64,
+          "padding": 96,
+          "children": [
+            {
+              "type": "frame",
+              "id": "O2F2lL",
+              "name": "Head",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xBtIs",
+                  "name": "Left",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G0LP3X",
+                      "name": "Eyebrow",
+                      "fill": "$accent-ink",
+                      "content": "02 — MÉTHODE",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "HrHjf",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vous envoyez les rushes, je m'occupe du reste",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-h",
+                      "fontSize": 52,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "iMvbG",
+                  "name": "Intro",
+                  "fill": "#5A5A5A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Pas de brief à rallonge, pas d'allers-retours interminables. Un lien de transfert, une deadline, et une vidéo prête à publier.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-b",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UDiQB",
+              "name": "Étapes",
+              "width": "fill_container",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "W0QEoN",
+                  "name": "Étape 01",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    40,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M8hMK",
+                      "name": "Num",
+                      "fill": "$accent-ink",
+                      "content": "01",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "enaqg",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vous déposez",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-h",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "sLS9J",
+                      "name": "Desc",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Un lien Drive ou Frame.io avec vos rushes et une phrase sur l'objectif de la vidéo. C'est tout ce dont j'ai besoin pour commencer.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "enCO8",
+                  "name": "Étape 02",
+                  "width": "fill_container",
+                  "stroke": "$hairline-light",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q4xKw",
+                      "name": "Num",
+                      "fill": "$accent-ink",
+                      "content": "02",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "bBkhH",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Je monte",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-h",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MuvIs",
+                      "name": "Desc",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Dérushage, structure, rythme, sous-titres, sound design et étalonnage. Vous recevez une V1 commentable sous 48h.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YeLRp",
+                  "name": "Étape 03",
+                  "width": "fill_container",
+                  "stroke": "$hairline-light",
+                  "strokeWidth": {
+                    "left": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    0,
+                    40
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pk8Ad",
+                      "name": "Num",
+                      "fill": "$accent-ink",
+                      "content": "03",
+                      "fontFamily": "$font-c",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "text",
+                      "id": "IvAS1",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Vous publiez",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$font-h",
+                      "fontSize": 28,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j6h0VA",
+                      "name": "Desc",
+                      "fill": "#5A5A5A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Deux allers-retours inclus, puis les exports dans tous les formats dont vous avez besoin — 16:9, 9:16, 1:1.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xkdGU",
+          "name": "À propos",
+          "width": "fill_container",
+          "fill": "$ink",
+          "gap": 80,
+          "padding": 96,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mPdLx",
+              "name": "Portrait",
+              "metadata": {
+                "type": "unsplash",
+                "username": "amjiths",
+                "link": "https://unsplash.com/@amjiths",
+                "author": "Amjith S"
+              },
+              "clip": true,
+              "width": 440,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1653043967362-12162e8b946d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODA3NDd8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12
+            },
+            {
+              "type": "frame",
+              "id": "g2Pgq",
+              "name": "Texte",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Zcc0X",
+                  "name": "Eyebrow",
+                  "fill": "$accent",
+                  "content": "03 — À PROPOS",
+                  "fontFamily": "$font-c",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "D8jd41",
+                  "name": "Title",
+                  "fill": "$on-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Juste, monteur depuis sept ans",
+                  "lineHeight": 1.06,
+                  "fontFamily": "$font-h",
+                  "fontSize": 48,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "V3ZUde",
+                  "name": "P1",
+                  "fill": "#B4B4B4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "J'ai commencé en montant des vidéos pour des amis créateurs. Aujourd'hui je travaille avec des marques, des coachs et des chaînes YouTube qui vivent de leur audience.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-b",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YpClU",
+                  "name": "P2",
+                  "fill": "#B4B4B4",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ce qui m'intéresse, ce n'est pas l'effet qui claque — c'est la seconde où le spectateur décide de rester. Tout mon montage tourne autour de ça.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "$font-b",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "S7xHpt",
+                  "name": "Outils",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OrBdJ",
+                      "name": "Premiere Pro",
+                      "cornerRadius": 8,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W5ldZ",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "Premiere Pro",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ajCQL",
+                      "name": "After Effects",
+                      "cornerRadius": 8,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U7HLp",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "After Effects",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "xfxCo",
+                      "name": "DaVinci Resolve",
+                      "cornerRadius": 8,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nL7LP",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "DaVinci Resolve",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F9t7K",
+                      "name": "CapCut",
+                      "cornerRadius": 8,
+                      "stroke": "$hairline",
+                      "strokeWidth": 1,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UMtwr",
+                          "name": "Label",
+                          "fill": "#B4B4B4",
+                          "content": "CapCut",
+                          "fontFamily": "$font-c",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XI0tx",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "$surface",
+          "layout": "vertical",
+          "gap": 30,
+          "padding": [
+            120,
+            96
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "WQ6by",
+              "name": "Eyebrow",
+              "fill": "$accent-ink",
+              "content": "04 — ON COMMENCE ?",
+              "fontFamily": "$font-c",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "CSavl",
+              "name": "Title",
+              "fill": "$ink",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Envoyez vos rushes",
+              "lineHeight": 1.03,
+              "textAlign": "center",
+              "fontFamily": "$font-h",
+              "fontSize": 76,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "oi5Ce",
+              "name": "Sub",
+              "fill": "#5A5A5A",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "Deux créneaux disponibles ce mois-ci. Réponse sous 24h, devis gratuit.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "$font-b",
+              "fontSize": 19,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "VKLMg",
+              "name": "Boutons",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k2lDyW",
+                  "name": "CTA Principal",
+                  "fill": "$accent",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    17,
+                    38
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F123RB",
+                      "name": "Label",
+                      "fill": "$ink",
+                      "content": "Réserver un appel",
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Erodo",
+                  "name": "CTA Secondaire",
+                  "cornerRadius": 9999,
+                  "stroke": "#D6D6D6",
+                  "strokeWidth": 1,
+                  "padding": [
+                    17,
+                    38
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bURCA",
+                      "name": "Label",
+                      "fill": "$ink",
+                      "content": "juste@exemple.com",
+                      "fontFamily": "$font-b",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k119MB",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$ink",
+          "padding": [
+            36,
+            96
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YU6r2",
+              "name": "Wordmark",
+              "fill": "$on-ink",
+              "content": "JUSTE",
+              "fontFamily": "$font-h",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "mMHgh",
+              "name": "Réseaux",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OGm4J",
+                  "name": "Instagram",
+                  "fill": "$muted",
+                  "content": "Instagram",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XAlMh",
+                  "name": "YouTube",
+                  "fill": "$muted",
+                  "content": "YouTube",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "gyXgv",
+                  "name": "LinkedIn",
+                  "fill": "$muted",
+                  "content": "LinkedIn",
+                  "fontFamily": "$font-b",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "W0lNCf",
+              "name": "Copyright",
+              "fill": "$muted",
+              "content": "© 2026",
+              "fontFamily": "$font-c",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YlZjM",
+      "x": 0,
+      "y": -602,
+      "name": "Component / Carte large 16:9",
+      "reusable": true,
+      "width": 608,
+      "layout": "vertical",
+      "gap": 14,
+      "children": [
+        {
+          "type": "frame",
+          "id": "o1fSOY",
+          "name": "Thumb",
+          "clip": true,
+          "width": "fill_container",
+          "height": 342,
+          "fill": "#141414",
+          "cornerRadius": 12,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "BCLi3",
+              "x": 0,
+              "y": 0,
+              "name": "Scrim",
+              "fill": "#0A0A0A59",
+              "width": 608,
+              "height": 342
+            },
+            {
+              "type": "frame",
+              "id": "aa2On",
+              "x": 278,
+              "y": 145,
+              "name": "Play",
+              "width": 52,
+              "height": 52,
+              "fill": "#FFFFFFE6",
+              "cornerRadius": 9999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "Dz5fE",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "play",
+                  "library": "lucide",
+                  "fill": "#0A0A0A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cW43B",
+              "x": 14,
+              "y": 14,
+              "name": "Tag",
+              "fill": "#0A0A0ACC",
+              "cornerRadius": 6,
+              "padding": [
+                6,
+                11
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MHSUG",
+                  "name": "Label",
+                  "fill": "$on-ink",
+                  "content": "TAG",
+                  "fontFamily": "$font-c",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "jMbos",
+          "name": "Titre",
+          "fill": "$on-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Titre",
+          "lineHeight": 1.2,
+          "fontFamily": "$font-h",
+          "fontSize": 26,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "Ocw96",
+          "name": "Meta",
+          "fill": "$muted",
+          "content": "Meta",
+          "fontFamily": "$font-c",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WYGRg",
+      "x": 0,
+      "y": -1098,
+      "name": "Component / Carte 16:9",
+      "reusable": true,
+      "width": 420,
+      "layout": "vertical",
+      "gap": 14,
+      "children": [
+        {
+          "type": "frame",
+          "id": "HBZCU",
+          "name": "Thumb",
+          "clip": true,
+          "width": "fill_container",
+          "height": 236,
+          "fill": "#141414",
+          "cornerRadius": 12,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "l9wqS",
+              "x": 0,
+              "y": 0,
+              "name": "Scrim",
+              "fill": "#0A0A0A59",
+              "width": 420,
+              "height": 236
+            },
+            {
+              "type": "frame",
+              "id": "WNpDh",
+              "x": 184,
+              "y": 92,
+              "name": "Play",
+              "width": 52,
+              "height": 52,
+              "fill": "#FFFFFFE6",
+              "cornerRadius": 9999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "qm36o",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "play",
+                  "library": "lucide",
+                  "fill": "#0A0A0A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RF282",
+              "x": 14,
+              "y": 14,
+              "name": "Tag",
+              "fill": "#0A0A0ACC",
+              "cornerRadius": 6,
+              "padding": [
+                6,
+                11
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G3nFaU",
+                  "name": "Label",
+                  "fill": "$on-ink",
+                  "content": "TAG",
+                  "fontFamily": "$font-c",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "zaub8",
+          "name": "Titre",
+          "fill": "$on-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Titre",
+          "lineHeight": 1.2,
+          "fontFamily": "$font-h",
+          "fontSize": 21,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "WjtkZ",
+          "name": "Meta",
+          "fill": "$muted",
+          "content": "Meta",
+          "fontFamily": "$font-c",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "t9m2W",
+      "x": 0,
+      "y": -1767,
+      "name": "Component / Carte 9:16",
+      "reusable": true,
+      "width": 230,
+      "layout": "vertical",
+      "gap": 14,
+      "children": [
+        {
+          "type": "frame",
+          "id": "DYNV3",
+          "name": "Thumb",
+          "clip": true,
+          "width": "fill_container",
+          "height": 409,
+          "fill": "#141414",
+          "cornerRadius": 12,
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "acRML",
+              "x": 0,
+              "y": 0,
+              "name": "Scrim",
+              "fill": "#0A0A0A59",
+              "width": 230,
+              "height": 409
+            },
+            {
+              "type": "frame",
+              "id": "O2l5E",
+              "x": 89,
+              "y": 179,
+              "name": "Play",
+              "width": 52,
+              "height": 52,
+              "fill": "#FFFFFFE6",
+              "cornerRadius": 9999,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "n0LpoY",
+                  "name": "Icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "play",
+                  "library": "lucide",
+                  "fill": "#0A0A0A"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nYN9L",
+              "x": 14,
+              "y": 14,
+              "name": "Tag",
+              "fill": "#0A0A0ACC",
+              "cornerRadius": 6,
+              "padding": [
+                6,
+                11
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YBWSy",
+                  "name": "Label",
+                  "fill": "$on-ink",
+                  "content": "TAG",
+                  "fontFamily": "$font-c",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "hALBY",
+          "name": "Titre",
+          "fill": "$on-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Titre",
+          "lineHeight": 1.2,
+          "fontFamily": "$font-h",
+          "fontSize": 19,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "nALKp",
+          "name": "Meta",
+          "fill": "$muted",
+          "content": "Meta",
+          "fontFamily": "$font-c",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "EpVGN",
+      "x": 1560,
+      "y": 0,
+      "name": "Inventaire Wistia — 30 vidéos",
+      "width": 560,
+      "height": 0,
+      "content": "INVENTAIRE COMPLET — source: Documentation/Liste des codes des vidéos du portfolio.docx\nChaque carte de la maquette porte son media-id dans son champ `context`.\n\n16:9 (10)\n1  Downsell Packo ......... rpqciuew1v\n2  Intro YouTube .......... yg3wmlq9vr\n3  Intro YT David Rupp .... w8hmcv8l4v\n4  VSL Packo .............. 0ojfko9q7s\n5  YouTube+pub Leadmia .... 6d9l9c6h3s\n6  YouTube Marius ......... wue8rcnwap\n7  VSL Cyril Bossy ........ yavpt1q9sd\n8  YT complet David Rupp .. fsbhdvpkg6\n9  YT complet David Rupp .. 5aibxeas27\n10 YT complet David Rupp .. jctp6uxk0e\n\n9:16 (20)\n1-8   ADS Cyril Bossy ...... ix4bw5ld9a, 8t3gq028x2, n9py4qfy28,\n                             7f3ticwap5, ybsomwwuy6, 6fxgnbfzrk,\n                             mgbj3vxokq, ssrkyi9yrp\n9,16  ADS marque Ecom ...... 0wt2il5c9a, c3d77ox2q6\n10-12 ADS Jordan Dafflon ... mtbi52a8yk, 1zg77plaqf, n8ocq1o9fi\n13    ADS Finance .......... y74tyoaorf\n14,15 ADS Jordan Dafflon ... yp8fi9xp0y, pqhy8hymy1\n17-20 Short Guillaume ...... lkxcyg7xmp, 88lc6246pz, 31s3541qnc,\n                             dg4jcitpe1\n\nLes 12 verticales non affichées dans la maquette sont derrière le\ncarrousel (scroll) et la carte \"+12 autres\"."
+    }
+  ],
+  "variables": {
+    "surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#0A0A0A"
+    },
+    "ink-soft": {
+      "type": "color",
+      "value": "#1A1A1A"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#888888"
+    },
+    "on-ink": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "hairline": {
+      "type": "color",
+      "value": "#242424"
+    },
+    "hairline-light": {
+      "type": "color",
+      "value": "#EEF0F2"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#FF5C39"
+    },
+    "font-h": {
+      "type": "string",
+      "value": "Anton"
+    },
+    "font-b": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "font-c": {
+      "type": "string",
+      "value": "Geist Mono"
+    },
+    "pad-x": {
+      "type": "number",
+      "value": 96
+    },
+    "accent-ink": {
+      "type": "color",
+      "value": "#D9401C"
+    }
+  },
+  "fileToken": "6b22a2f8-fb49-4855-8f07-742f9642be51"
+}

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "WebFetch(domain:fast.wistia.com)",
+      "Bash(node /tmp/claude-1000/-home-audrymusk-RENDUS-portfolio-video/6226de74-be52-406d-892c-9d3def2dcba7/scratchpad/fetch.mjs)",
+      "Bash(curl -sSL -o public/hero.jpg \"https://images.unsplash.com/photo-1647427854253-b92bb40c9330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=82&w=2400\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5180/)",
+      "Bash(rm -rf shots)",
+      "Bash(mkdir shots *)",
+      "Bash(google-chrome --headless --disable-gpu --no-sandbox --hide-scrollbars --window-size=1440,2200 --virtual-time-budget=9000 --screenshot=shots/desktop.png http://localhost:5180/)"
+    ]
+  }
+}
