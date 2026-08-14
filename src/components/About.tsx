@@ -1,33 +1,27 @@
-import { useState } from 'react'
 import { Reveal } from './Reveal'
 
 const TOOLS = ['Premiere Pro', 'After Effects', 'DaVinci Resolve', 'CapCut']
 
 export function About() {
-  // Le portrait de Juste n'est pas encore fourni : on garde un cadre propre en attendant.
-  const [portraitMissing, setPortraitMissing] = useState(false)
-
   return (
     <section id="a-propos" className="bg-ink py-20 md:py-28">
-      <div className="grid items-center gap-12 px-6 md:px-12 lg:grid-cols-[440px_1fr] lg:gap-20 lg:px-24">
+      <div className="grid items-center gap-12 px-6 md:px-12 lg:grid-cols-[minmax(440px,560px)_minmax(0,1fr)] lg:gap-20 lg:px-24">
         <Reveal>
-          <div className="relative aspect-[5/6] overflow-hidden rounded-xl bg-ink-soft ring-1 ring-hairline">
-            {portraitMissing ? (
-              <div className="flex h-full flex-col items-center justify-center gap-2 px-6 text-center">
-                <p className="font-mono text-xs tracking-widest text-muted">PORTRAIT</p>
-                <p className="text-sm text-muted">
-                  <code className="text-dim">public/juste.jpg - photo de juste ici</code>
-                </p>
-              </div>
-            ) : (
+          <div className="relative mx-auto max-w-[560px] lg:mx-0">
+            <div className="absolute -inset-3 rounded-[2rem] border border-accent/25 md:-inset-4" />
+            <div className="relative aspect-[5/6] overflow-hidden rounded-[1.5rem] bg-ink-soft shadow-2xl shadow-black/45 ring-1 ring-white/10">
               <img
-                src="/juste.jpg"
-                alt="Juste, monteur vidéo, à son poste de montage"
+                src="/juste-portrait-hd.webp"
+                alt="Portrait de Juste, monteur vidéo"
                 loading="lazy"
-                onError={() => setPortraitMissing(true)}
+                decoding="async"
                 className="h-full w-full object-cover"
               />
-            )}
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-ink/75 to-transparent" />
+              <p className="absolute bottom-5 left-5 rounded-full border border-white/20 bg-ink/55 px-4 py-2 font-mono text-[10px] tracking-[0.22em] text-white backdrop-blur-md md:bottom-7 md:left-7">
+                JUSTE · MONTEUR VIDÉO
+              </p>
+            </div>
           </div>
         </Reveal>
 
