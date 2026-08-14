@@ -19,15 +19,22 @@ export function Nav() {
 
   return (
     <header
-      className={`sticky top-0 z-40 bg-surface transition-shadow duration-300 ${
-        scrolled ? 'shadow-[0_1px_0_rgba(0,0,0,0.08),0_8px_24px_rgba(0,0,0,0.06)]' : ''
+      className={`fixed inset-x-0 top-0 z-40 transition-all duration-500 ${
+        scrolled
+          ? 'bg-surface/95 shadow-[0_1px_0_rgba(0,0,0,0.08),0_8px_24px_rgba(0,0,0,0.06)] backdrop-blur-xl'
+          : 'bg-transparent'
       }`}
     >
       <nav
         className="mx-auto flex items-center justify-between gap-6 px-6 py-4 md:px-12 lg:px-24"
         aria-label="Navigation principale"
       >
-        <a href="#top" className="font-display text-xl tracking-[0.12em] text-ink md:text-2xl">
+        <a
+          href="#top"
+          className={`font-display text-xl tracking-[0.12em] transition-colors md:text-2xl ${
+            scrolled ? 'text-ink' : 'text-white'
+          }`}
+        >
           JUSTE
         </a>
 
@@ -36,7 +43,9 @@ export function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-base text-ink/80 transition hover:text-ink"
+                className={`text-base transition ${
+                  scrolled ? 'text-ink/80 hover:text-ink' : 'text-white/75 hover:text-white'
+                }`}
               >
                 {link.label}
               </a>

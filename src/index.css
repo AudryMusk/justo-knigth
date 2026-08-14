@@ -60,6 +60,21 @@
 
 /* Révélation au scroll — désactivée si l'utilisateur préfère moins de mouvement. */
 @media (prefers-reduced-motion: no-preference) {
+  .hero-slide {
+    opacity: 0;
+    transform: scale(1.06);
+    transition:
+      opacity 1s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 6.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .hero-slide[data-active='true'] {
+    opacity: 1;
+    transform: scale(1);
+  }
+  .hero-progress {
+    animation: hero-progress linear forwards;
+  }
+
   .reveal {
     opacity: 0;
     transform: translateY(28px);
@@ -73,8 +88,27 @@
   }
 }
 
+@keyframes hero-progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .hero-slide {
+    opacity: 0;
+  }
+  .hero-slide[data-active='true'] {
+    opacity: 1;
+  }
+  .hero-progress {
+    width: 100%;
   }
 }
