@@ -51,8 +51,6 @@ export function Hero() {
     <section
       id="top"
       className="relative isolate min-h-[100svh] overflow-hidden bg-ink"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={(event) => {
         if (!event.currentTarget.contains(event.relatedTarget)) setPaused(false)
