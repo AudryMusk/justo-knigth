@@ -16,7 +16,7 @@ export function About() {
               <div className="flex h-full flex-col items-center justify-center gap-2 px-6 text-center">
                 <p className="font-mono text-xs tracking-widest text-muted">PORTRAIT</p>
                 <p className="text-sm text-muted">
-                  Déposer la photo dans <code className="text-dim">public/juste.jpg</code>
+                  <code className="text-dim">public/juste.jpg - photo de juste ici</code>
                 </p>
               </div>
             ) : (

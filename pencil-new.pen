@@ -118,14 +118,14 @@
               "name": "Hero Image",
               "metadata": {
                 "type": "unsplash",
-                "username": "dbrandaof",
-                "link": "https://unsplash.com/@dbrandaof",
-                "author": "Diogo Brandao"
+                "username": "kobuagency",
+                "link": "https://unsplash.com/@kobuagency",
+                "author": "KOBU Agency"
               },
               "fill": {
                 "type": "image",
                 "enabled": true,
-                "url": "https://images.unsplash.com/photo-1576935429524-1df7fb127097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzODE1NzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                "url": "https://images.unsplash.com/photo-1647427854253-b92bb40c9330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920",
                 "mode": "fill"
               },
               "width": 1440,
